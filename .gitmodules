@@ -1,0 +1,3 @@
+[submodule "spyder_printer_files"]
+	path = spyder_printer_files
+	url = https://github.com/sn-printer-files/spyder_printer_files
