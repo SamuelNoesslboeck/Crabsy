@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
     
 
 class SpyderFoot():
-    def __init__(self, lengths : list[float]) -> None:
+    def __init__(self, lengths : list) -> None:
         # Constants
         self.lengths = lengths
         
@@ -28,7 +28,7 @@ class SpyderFoot():
         self.eta = 0.0
     
         
-    def neutral_vectors(self) -> list[Vector3]:
+    def neutral_vectors(self) -> list:
         return [
             Vector3(self.lengths[0]),
             Vector3(self.lengths[1]),
@@ -60,7 +60,7 @@ class SpyderFoot():
         return Vector3(self.anchor_length, 0.0, self.anchor_height)
     
 
-    def recalc_from_ang(self, phis : list[float]) -> Vector3:
+    def recalc_from_ang(self, phis : list) -> Vector3:
         self.phis = phis
         
         nvecs = self.neutral_vectors()
@@ -73,7 +73,7 @@ class SpyderFoot():
         return self.pos
     
     
-    def recalc_from_pos(self, pos : Vector3) -> list[float]:
+    def recalc_from_pos(self, pos : Vector3) -> list:
         # Useful unpacking
         x, y, z = pos
         l1, l2, l3 = self.lengths
@@ -110,7 +110,7 @@ class SpyderFoot():
         return phis
     
     
-    def create_path(self, num_iter : int, iter_dist : float, angle : float) -> list[list[float]]:
+    def create_path(self, num_iter : int, iter_dist : float, angle : float) -> list:
         iter_vec = Vector3(math.cos(angle), math.sin(angle), 0.0) * iter_dist
         angles = [ ]
         
@@ -150,7 +150,7 @@ class SpyderFoot():
         
 
 class Spyder():
-    def __init__(self, a : float, lengths : list[float]):
+    def __init__(self, a : float, lengths : list):
         self.a = a
         self.h = math.sqrt(3) / 2.0 * a
         
@@ -187,7 +187,7 @@ class Spyder():
             self.feet[i].set_recovery_height(height)
         
     
-    def set_pos(self, pos : list[float]):
+    def set_pos(self, pos : list):
         self.pos = pos
     
     
@@ -199,7 +199,7 @@ class Spyder():
         return y + self.pos[1]
     
     
-    def foot_conn_point(self, index : int) -> list[float]:
+    def foot_conn_point(self, index : int) -> list:
         p1 = self.hex[index]
         p2 = self.hex[(index + 1) % 6]
         return [
@@ -208,7 +208,7 @@ class Spyder():
         ]
         
     
-    def draw_const(self, pos : list[float]):
+    def draw_const(self, pos : list):
         self.set_pos(pos)
         
         hex_p1 = [ self.a, 0.0 ]
@@ -289,7 +289,7 @@ class Spyder():
             self.draw_foot(i)
 
         
-    def update_foot_by_ang(self, index : int, phis : list[float]):
+    def update_foot_by_ang(self, index : int, phis : list):
         # Update foot
         self.feet[index].recalc_from_ang(phis)
         
@@ -320,6 +320,6 @@ class Spyder():
         )
     
         
-    def create_paths(self, num_iter : int, iter_dist : float, angle : float) -> list[list[list[float]]]:
+    def create_paths(self, num_iter : int, iter_dist : float, angle : float) -> list:
         return [ self.feet[i].create_path(num_iter, iter_dist, angle - math.pi / 3 * i - math.pi / 6) for i in range(0, 6) ]
         
