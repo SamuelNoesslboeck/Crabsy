@@ -29,7 +29,7 @@ using PiPCA9685::PCA9685;
 # define SPYDER_SERVO_SIG_MAX       511.0
 
 // Types
-typedef float_t Angle;
+typedef float Angle;
 
 // Constants
 static const std::array<Angle, 3> SPYDER_DEFAULT_POS = { SPYDER_SERVO_ANGLE_DEFAULT, SPYDER_SERVO_ANGLE_DEFAULT, SPYDER_SERVO_ANGLE_DEFAULT };
