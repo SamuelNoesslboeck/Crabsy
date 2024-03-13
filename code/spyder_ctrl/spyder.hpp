@@ -84,7 +84,7 @@ public:
 
     // Positions
     void goto_default_position() {
-        this->set_angles()
+        this->set_angles(SPYDER_DEFAULT_POS);
     }
 };
 
@@ -98,12 +98,12 @@ public:
     Spyder() 
         : pwm1(SPYDER_I2C_DEVICE, 0x40), pwm2(SPYDER_I2C_DEVICE, 0x41),
             legs({
-                SpyderLeg::SpyderLeg(&pwm1, 0, 0),
-                SpyderLeg::SpyderLeg(&pwm1, 1, 1),
-                SpyderLeg::SpyderLeg(&pwm1, 2, 2),
-                SpyderLeg::SpyderLeg(&pwm2, 3, 0),
-                SpyderLeg::SpyderLeg(&pwm2, 4, 1),
-                SpyderLeg::SpyderLeg(&pwm2, 5, 2),
+                SpyderLeg(&pwm1, 0, 0),
+                SpyderLeg(&pwm1, 1, 1),
+                SpyderLeg(&pwm1, 2, 2),
+                SpyderLeg(&pwm2, 3, 0),
+                SpyderLeg(&pwm2, 4, 1),
+                SpyderLeg(&pwm2, 5, 2)
             })
     {
         pwm1.set_pwm_freq(SPYDER_PWM_FREQ);
