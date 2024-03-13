@@ -4,6 +4,7 @@
 # include <array>
 # include <exception> 
 # include <optional>
+# include <stdexcept>
 
 // Libraries
 # include "PCA9685.hpp"
@@ -49,11 +50,11 @@ private:
         angle += this->offsets[servo_id];
 
         if (angle < SPYDER_SERVO_ANGLE_MIN) {
-            throw std::exception("The given angle is too small!");
+            throw std::runtime_error("The given angle is too small!");
         }
 
         if (angle > SPYDER_SERVO_ANGLE_MAX) {
-            throw std::exception("The given angle is too big!");
+            throw std::runtime_error("The given angle is too big!");
         }
 
         return (angle - SPYDER_SERVO_ANGLE_MIN) / (SPYDER_SERVO_ANGLE_MAX - SPYDER_SERVO_ANGLE_MIN) * (SPYDER_SERVO_SIG_MAX - SPYDER_SERVO_SIG_MIN) + SPYDER_SERVO_SIG_MIN;
@@ -68,7 +69,7 @@ public:
 
     void set_angle(uint8_t servo_id, Angle angle) {
         if (servo_id > SPYDER_LEG_SERVO_COUNT) {
-            throw std::exception("The given servo_id is out of range")
+            throw std::runtime_error("The given servo_id is out of range")
         }
 
         this->angles[servo_id] = angle;
