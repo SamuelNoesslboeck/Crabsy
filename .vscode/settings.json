@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.script": "lua",
+        "*.Ive-Object": "json",
+        "array": "cpp",
+        "optional": "cpp"
+    }
+}
