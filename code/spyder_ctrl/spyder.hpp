@@ -3,6 +3,7 @@
 // Std libraries
 # include <array>
 # include <exception> 
+# include <iostream>
 # include <optional>
 # include <stdexcept>
 # include <string>
@@ -82,6 +83,7 @@ public:
     void set_angles(std::array<Angle, 3> angles) {
         this->angles = angles;
         for (uint8_t i = 0; i < SPYDER_LEG_COUNT; i++) {
+            std::cout << "Set servo angle of servo: " << i << " to " << angles[i] << std::endl;
             pwm->set_pwm(pwm_leg_id*SPYDER_LEG_CHANNELS + i, 0, get_signal_for_angle(i, angles[i]));
         }
     }
