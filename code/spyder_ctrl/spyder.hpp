@@ -64,10 +64,10 @@ private:
     }
 
 public:
-    SpyderLeg(PCA9685* pwm, uint8_t leg_id, uint8_t pwm_leg_id, std::array<Angle, 3> offsets = { 0, 0, 0 }) 
-        : pwm(pwm), leg_id(leg_id), pwm_leg_id(pwm_leg_id), angles(SPYDER_DEFAULT_POS), offsets(offsets)
+    SpyderLeg(PCA9685* pwm, uint8_t leg_id, uint8_t pwm_leg_id) 
+        : pwm(pwm), leg_id(leg_id), pwm_leg_id(pwm_leg_id), angles(SPYDER_DEFAULT_POS)
     {
-
+        this->offsets = { 0.0, 0.0, 0.0 };
     }
 
     void set_angle(uint8_t servo_id, Angle angle) {
