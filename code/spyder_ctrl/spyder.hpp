@@ -69,7 +69,7 @@ public:
 
     void set_angle(uint8_t servo_id, Angle angle) {
         if (servo_id > SPYDER_LEG_SERVO_COUNT) {
-            throw std::runtime_error("The given servo_id is out of range")
+            throw std::runtime_error("The given servo_id is out of range");
         }
 
         this->angles[servo_id] = angle;
