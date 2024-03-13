@@ -5,6 +5,7 @@
 # include <exception> 
 # include <optional>
 # include <stdexcept>
+# include <string>
 
 // Libraries
 # include "PCA9685.hpp"
@@ -50,11 +51,11 @@ private:
         angle += this->offsets[servo_id];
 
         if (angle < SPYDER_SERVO_ANGLE_MIN) {
-            throw std::runtime_error("The given angle is too small!");
+            throw std::runtime_error(std::string("The given angle is too small! Angle: ") + std::to_string(angle));
         }
 
         if (angle > SPYDER_SERVO_ANGLE_MAX) {
-            throw std::runtime_error("The given angle is too big!");
+            throw std::runtime_error(std::string("The given angle is too big! Angle: ") + std::to_string(angle));
         }
 
         return (angle - SPYDER_SERVO_ANGLE_MIN) / (SPYDER_SERVO_ANGLE_MAX - SPYDER_SERVO_ANGLE_MIN) * (SPYDER_SERVO_SIG_MAX - SPYDER_SERVO_SIG_MIN) + SPYDER_SERVO_SIG_MIN;
@@ -73,7 +74,7 @@ public:
         }
 
         this->angles[servo_id] = angle;
-        pwm->set_pwm(pwm_leg_id + servo_id, 0, get_signal_for_angle(servo_id, angle));
+        pwm->set_pwm(pwm_leg_id*SPYDER_LEG_CHANNELS + servo_id, 0, get_signal_for_angle(servo_id, angle));
     }
 
     void set_angles(std::array<Angle, 3> angles) {
