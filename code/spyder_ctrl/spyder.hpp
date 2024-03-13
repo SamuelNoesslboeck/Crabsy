@@ -51,11 +51,13 @@ private:
         angle += this->offsets[servo_id];
 
         if (angle < SPYDER_SERVO_ANGLE_MIN) {
-            throw std::runtime_error(std::string("The given angle is too small! Angle: ") + std::to_string(angle));
+            throw std::runtime_error(std::string("The given angle is too small! Angle: ") 
+                + std::to_string(angle) + ", Offset: " + std::to_string(this->offsets[servo_id]));
         }
 
         if (angle > SPYDER_SERVO_ANGLE_MAX) {
-            throw std::runtime_error(std::string("The given angle is too big! Angle: ") + std::to_string(angle));
+            throw std::runtime_error(std::string("The given angle is too big! Angle: ") 
+                + std::to_string(angle) + ", Offset: " + std::to_string(this->offsets[servo_id]));
         }
 
         return (angle - SPYDER_SERVO_ANGLE_MIN) / (SPYDER_SERVO_ANGLE_MAX - SPYDER_SERVO_ANGLE_MIN) * (SPYDER_SERVO_SIG_MAX - SPYDER_SERVO_SIG_MIN) + SPYDER_SERVO_SIG_MIN;
