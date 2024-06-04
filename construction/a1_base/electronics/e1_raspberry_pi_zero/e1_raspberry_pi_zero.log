@@ -1,0 +1,130 @@
+STEP translation to Solid Edge
+Date: Tuesday,June 04,2024 04:10PM
+Source File: A:\projects\Crabsy\construction\a1_base\electronics\e1_raspberry_pi_zero.step
+Author: Unknown
+Organization: Unknown
+Source System: SolidWorks 2013
+
+Hardware:
+Processor: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 15.84 GB
+
+Software Information
+Parasolid Version: 36.0.142
+PSBodyShop Version: 36.0.108
+Step Adapter Version: 13.0.163
+Solid Edge Version: 224.00.00.101 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: A:\projects\Crabsy\construction\a1_base\electronics
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File A:\projects\Crabsy\construction\a1_base\electronics\e1_raspberry_pi_zero.asm
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\Raspberry_pizero_PCB.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\Micro USB_input_female (short)-SMT.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\Micro USB_input_female (short)-SMT.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\CAP-0306.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\CAP-0306.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\Raspberry_pizero_BCM2835 with VC4.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\Crystal 3.4x2.4mm.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\32,768 Khz Crystal.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\0805- Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0805- Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0805- Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0805- Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0805- Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0805- Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0805- Capacitor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor Brown.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor Brown.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor Brown.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor Brown.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor Brown.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor Brown.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor Brown.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor Brown.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204- Resistor.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\6-Pin SOT.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\micro sd molex.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\hdmi type C.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\Voltage Regulator 3x3mm 12-Pin.par
+|--+Created SE Part File A:\projects\Crabsy\construction\a1_base\electronics\1210 inductor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\1210 inductor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\1210 inductor.par
+|--+Reusing File A:\projects\Crabsy\construction\a1_base\electronics\0204 - Capacitor.par
++Total Parts: 208
++Assemblies: 0
++Solid Bodies: 208
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 09
