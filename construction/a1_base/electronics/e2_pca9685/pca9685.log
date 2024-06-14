@@ -1,0 +1,159 @@
+STEP translation to Solid Edge
+Date: Saturday,June 08,2024 09:11AM
+Source File: A:\libs\standard_parts\electronics\drivers\pca9685\pca9685.step
+Author: Unknown
+Organization: Unknown
+Source System: FreeCAD
+
+Hardware:
+Processor: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Operating System: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Installed Memory: 15.84 GB
+
+Software Information
+Parasolid Version: 36.0.142
+PSBodyShop Version: 36.0.108
+Step Adapter Version: 13.0.163
+Solid Edge Version: 224.00.00.101 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: A:\libs\standard_parts\electronics\drivers\pca9685
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File A:\libs\standard_parts\electronics\drivers\pca9685\pca9685.asm
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_DIODE_0.5_001.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_LED_rot_001.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_001.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_002.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_003.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_004.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_005.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_006.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_007.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_008.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_009.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_010.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_011.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_012.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_013.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_014.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_015.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_016.par
+|--+Begin Assembly: 2
+|--+Created SE Assembly File A:\libs\standard_parts\electronics\drivers\pca9685\R-122.asm
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_001.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_002.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_003.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_004.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_005.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_006.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_007.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_008.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_009.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_010.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_011.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_012.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_013.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_014.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_015.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_016.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_026.par
+|--+Total Parts: 18
+|--+Assemblies: 0
+|--+Solid Bodies: 18
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Begin Assembly: 2
+|--+Created SE Assembly File A:\libs\standard_parts\electronics\drivers\pca9685\headers.asm
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_001.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_002.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_003.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_004.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_005.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_006.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_007.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_008.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_009.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_010.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_011.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_012.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_013.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_014.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_015.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_016.par
+|--+Total Parts: 32
+|--+Assemblies: 0
+|--+Solid Bodies: 32
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_001.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_002.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_003.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_004.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_005.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_006.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_007.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_008.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_009.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_010.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_011.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_012.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_013.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_014.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_015.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\h-male-servo_016.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_017.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_018.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_019.par
+|--+Begin Assembly: 2
+|--+Created SE Assembly File A:\libs\standard_parts\electronics\drivers\pca9685\R103.asm
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_017.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_018.par
+|  |--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_019.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_020.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_021.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_022.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_023.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_024.par
+|  |--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_025.par
+|--+Total Parts: 15
+|--+Assemblies: 0
+|--+Solid Bodies: 15
+|--+Sheet Bodies: 0
+|--+End Assembly: 2
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_020.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_021.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_022.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_023.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_024.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_025.par
+|--+Reusing File A:\libs\standard_parts\electronics\drivers\pca9685\SMD_R_026.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\PCA9685-text-up_001.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\PCA9685-text-down_001.par
+|--+Created SE Part File A:\libs\standard_parts\electronics\drivers\pca9685\Platine.par
++Total Parts: 538
++Assemblies: 3
++Solid Bodies: 535
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 32
